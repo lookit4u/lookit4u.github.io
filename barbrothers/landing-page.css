@@ -31,15 +31,29 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/background/intro-barbrothers.png) no-repeat center center;
     background-size: cover;
 }
 
-
 .intro-message {
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    position: center;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.form {
+  position: center;
+  border-radius: 5px;
+  border-width: medium;
+  border-color: black;
+  border-style: solid;
+  background-color: rgba(255,255,255,0.8);
+  font-size: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: black;
+  text-align: center;
+
 }
 
 .intro-message > h1 {
@@ -168,23 +182,6 @@ p.copyright {
 
 /* add adetinal style*/
 .button {
- background-color: white;
- border: 2px solid #333;
- border-radius:.99rem;
- padding: 16px 32px;
- text-align: center;
- margin: 4px 2px;
- -webkit-transition: background-color 1s ease-out;
-}
-.button:hover
-{
-background-image:none;
-background-color:#333;
-color:#fff;
-}
-
-/* add adetinal style*/
-.button2 {
  background:blue;
  padding:5px 10px;
  color:#fff;
