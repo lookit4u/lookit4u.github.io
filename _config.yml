@@ -1,0 +1,24 @@
+title:              Look It For You
+email:              guy@lookit4u.com
+description:        Place where we look on product and review it for you
+author:             lookit4u
+baseurl:            ""
+url:                "https://lookit4u.com"
+
+# Social Profiles
+twitter_username:   lookit4u
+github_username:    lookit4u
+facebook_username:  Lookit4u-113014910120219
+linkedin_username:  lookit4u
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
